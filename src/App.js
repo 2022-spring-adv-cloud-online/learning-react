@@ -8,13 +8,9 @@ const App = () => {
       <h1>
         Hello React ! ! !
       </h1>
-      <h1>
-        Hello Larry ! ! !
-      </h1>
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
+      <Greeting name='Larry' />
+      <Greeting name='Curly' />
+      <Greeting name='Moe' />
     </>
   );
 };
